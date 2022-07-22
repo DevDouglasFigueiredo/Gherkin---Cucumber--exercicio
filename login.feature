@@ -20,14 +20,14 @@ Feature: tela de login
         And a senha "senha123"
         Then deve exibir uma mensagem de alerta "Usuario Inexistente"
 
-    Scenario: Usario com senha inválida
+    Scenario: Usuario com senha inválida
         When eu digitar o usuario "joao@ebac.com,br"
         And a senha "huehuaheaueh"
         Then deve exibir uma mensagem alerta "Usuário ou senha inválidos"
 
     # Esquema de cenario na tradução
     Scenario Outline: Autenticar multiplos usuários
-        When eu digitar <usario>
+        When eu digitar <usuario>
         And a <senha>
         Then  deve exibir a <mensagem> de sucesso
 

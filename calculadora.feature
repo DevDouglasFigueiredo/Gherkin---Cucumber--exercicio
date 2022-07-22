@@ -12,7 +12,7 @@
 
         Esquema do Cenário: Soma de 2 números
         Quando eu digitar <numero 1>
-        And digitar o <numero 2>
+        E digitar o <numero 2>
         Então deve aparecer a <soma> deles
 
         Examples:
